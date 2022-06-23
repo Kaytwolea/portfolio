@@ -74,7 +74,7 @@ h3{
 	margin-bottom: 50px;
 }
 h4{
-	color: #fcfc;
+	color: bisque;
 	letter-spacing: 2px;
 	font-size: 20px;
 }
@@ -226,12 +226,12 @@ h5{
 	cursor: pointer;
 }
 .skills {
-	width: 100%;
+	/* width: 100%; */
 	min-height: 350px;
 	height: auto;
 	background-color: #c5bbbb;
 	display: block;
-	margin: 0;
+	/* margin: 0; */
 	overflow: auto;
 	align-items: center;
 	line-height: 1.2;
@@ -327,3 +327,41 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+.totop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px
+}
+.totop i {
+	color: white;
+}
+.totop:hover {
+	background-color: green;
+}
+/* .anime {
+	position: relative;
+	transform: translate(200px);
+	transition-delay: 4s;
+	opacity: 0;
+	transition: ease ease-out;
+}
+.anime.active {
+	opacity: 1;
+	transform: translateY(0);
+} */
+/* @media screen and (max-width:480px) {
+	body {
+		width: 100vw;
+	}
+	
+} */
